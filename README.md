@@ -1,10 +1,10 @@
-# ♟️ Mate-in-One Finder with Z3
+# Mate-in-One Finder with Z3
 
 A Jupyter notebook that finds **mate-in-one** moves in chess positions using **Z3**, Microsoft's formal logic constraint solver. Given a board position in FEN notation, the solver symbolically reasons over all candidate moves to determine which one — if any — delivers checkmate in a single move.
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. The chessboard is parsed from a FEN string into an 8×8 grid
 2. All pseudo-legal moves for the active side are generated
@@ -17,7 +17,7 @@ A Jupyter notebook that finds **mate-in-one** moves in chess positions using **Z
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 mate-in-one-finder/
@@ -35,7 +35,7 @@ mate-in-one-finder/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -60,7 +60,7 @@ The notebook will **randomly pick a FEN** from `fen_db.csv` and attempt to find 
 
 ---
 
-## 🧩 Notebook Sections
+## Notebook Sections
 
 | Section | Description |
 |---------|-------------|
@@ -75,7 +75,7 @@ The notebook will **randomly pick a FEN** from `fen_db.csv` and attempt to find 
 
 ---
 
-## 🛠️ Dependencies
+## Dependencies
 
 | Package | Purpose |
 |---------|---------|
@@ -85,15 +85,15 @@ The notebook will **randomly pick a FEN** from `fen_db.csv` and attempt to find 
 
 ---
 
-## 📌 Example
+## Example
 
 ```
 Position: 7Q/3Bk3/2P1p3/4P2P/7b/5K2/B7/1b6 w - - 3 78
-Mate-in-one found: h8e8 ✅
+Mate-in-one found: h8e8 
 ```
 
 ---
 
-## 📄 License
+## License
 
 MIT License — feel free to use, modify, and distribute.
